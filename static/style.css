@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1919;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    max-width: 97.9%; /* Constrain to the viewport width */
+}
+
+section {
+    min-height: 75.45vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.navibar li {
+    display: inline; 
+} 
+.navibar li a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding:  25px; 
+} 
+.navibar li a:hover {
+    background-color: #575757;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px 50px 50px;
+}
+
+.content.home {
+    background-image: url('pic.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.content.about {
+    background-image: url('pic2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.content.contact {
+    background-image: url('pic3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+    max-width: 600px;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #575757;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #575757;
+}
+.mem{
+    text-align: center;
+    color: #ccc;
+    font-size: 1000%;
+}
+.hello{
+    background:floralwhite ;
+    padding: 30px;
+    margin: 0px 100px 100px 120px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.headi{
+    background: gray ;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.p2{
+    background: black ;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+     
+}
+.p3{
+    background: black ;
+    padding: 20px;
+    
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+    text-decoration: none; 
+}

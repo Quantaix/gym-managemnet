@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membership</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <header>
+        <a href="/home" class="logo">Fitness World</a>
+        <nav>
+            <ul class="navibar">
+                <li><a href="{{'home'}}">Home</a></li>
+                <li><a href="{{'about'}}">About Us</a></li>
+                <li><a href="{{'member'}}">Membership</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <h1 class="mem">MEMBERSHIP</h1>
+    <div class="hello">
+        <h2 class="headi">STANDARD</h2>
+        <p class="para">Use all machines<br>No instructor<br>No cardio<br>no suana<br>No swimingpool</p>
+        <p class="p2">10,000RS permonth</p>
+        <a href="#contact" class="p3">Contact US</a>
+    </div>
+    <div class="hello">
+        <h2 class="headi">PREMIUM</h2>
+        <p class="para">Use all machines<br>With instructor<br>No cardio<br>No suana<br>No swimingpool</p>
+        <p class="p2">15,000RS permonth</p>
+        <a href="#contact" class="p3">Contact US</a>
+    </div>
+    <div class="hello">
+        <h2 class="headi">JACKED UP</h2>
+        <p class="para">Use all machines<br>With instructor<br>With cardio<br>With suana<br>With swimingpool</p>
+        <p class="p2">20,000RS permonth</p>
+        <a href="#contact" class="p3">Contact US</a>
+    </div>
+    <section id="contact" class="content contact">
+        <div class="box">
+            <h2>Contact US</h2>
+            <p>Feel free to reach out to us with any inquiries. We are here to help you on your fitness journey.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+                
+            </form>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
